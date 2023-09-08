@@ -1,0 +1,4 @@
+menuconfig FS_MODULE
+	bool "File system module"
+	help
+	  Enable fs-module.

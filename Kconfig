@@ -1,0 +1,5 @@
+config FS_MODULE
+	bool "FS module support"
+	default n
+	help
+		This option enables FS module.
