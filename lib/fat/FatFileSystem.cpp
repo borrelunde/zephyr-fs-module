@@ -13,7 +13,7 @@
 FatFileSystem::FatFileSystem()
     : mp({
           .type = FS_TYPE,
-          // .fs_data = &fat_fs,
+          .fs_data = &fat_fs,
       }) {
 }
 

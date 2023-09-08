@@ -1,7 +1,7 @@
 #pragma once
 
 #include <zephyr/fs/fs.h>
-// #include <ff.h>
+#include <ff.h>
 
 #include "../FileSystem.hpp"
 
@@ -14,6 +14,6 @@ class FatFileSystem : public FileSystem {
 	void unmount() override;
 
    private:
-    // FATFS fat_fs;
+    FATFS fat_fs;
     struct fs_mount_t mp;
 };
